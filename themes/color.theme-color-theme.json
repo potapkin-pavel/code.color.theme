@@ -1,0 +1,99 @@
+{
+	"name": "color-theme",
+	"type": "dark",
+	"colors": {
+		"button.background": "#0c1624",
+        "button.foreground": "#0E639C",
+        "button.hoverBackground": "#617289",
+        "titleBar.activeBackground": "#0c1624",
+        "titleBar.border": "#1e375a",
+        "menu.background": "#0c1624",
+        "menubar.selectionBackground": "#1e375a",
+        "menu.selectionBackground": "#1e375a",
+        "menu.separatorBackground": "#1e375a",
+        "input.background": "#172b46",
+        "progressBar.background": "#0c1624",
+        "editor.background": "#0c1624",
+        "editorCursor.foreground": "#f0f0f1",
+        "activityBar.background" : "#0c1624",
+        "activityBar.foreground": "#f0f0f1",
+        "activityBar.inactiveForeground": "#959596",
+        "activityBar.border": "#1e375a",
+        "activityBarBadge.background":"#0c1624",
+        "sideBar.background": "#0c1624",
+        "sideBar.border": "#1e375a",
+        "sideBarTitle.foreground": "#959596",
+        "sideBarSectionHeader.background": "#172b46",
+        "editorGroupHeader.noTabsBackground": "#0c1624",
+        "editorGroupHeader.tabsBackground": "#0c1624",
+        "editorGroupHeader.tabsBorder": "#1e375a",
+        "tab.inactiveBackground": "#0c1624",
+        "tab.activeBackground": "#172b46",
+        "tab.border": "#1e375a",
+	},
+
+
+	"tokenColors": [
+		{
+			"name": "HTML doctype",
+			"scope": [
+				"meta.tag.metadata.doctype.html"
+			],
+			"settings": {
+				"foreground": "#7bcbf0"
+			}
+    },
+    {
+			"name": "HTML tag",
+			"scope": [
+				"entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#7bcbf0"
+			}
+    },
+    {
+			"name": "HTML attribute",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#78f182"
+			}
+    },
+    {
+			"name": "HTML text",
+			"scope": [
+        "text.html.derivative",
+        "meta.tag.metadata.doctype.html",
+			],
+			"settings": {
+				"foreground": "#e4e4e4"
+			}
+    },
+    {
+			"name": "HTML attribute values",
+			"scope": [
+        "string.quoted.double.html",
+			],
+			"settings": {
+				"foreground": "#d8d5b0"
+			}
+    },
+    
+    {
+			"name": "HTML comment block",
+			"scope": [
+				"comment.block.html"
+			],
+			"settings": {
+				"foreground": "#468a51"
+			}
+    },
+    
+    
+    
+    
+
+	]
+}
