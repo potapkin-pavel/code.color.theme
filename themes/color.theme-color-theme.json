@@ -88,5 +88,26 @@
 				"foreground": "#468a51"
 			}
 		},
+		{
+			"name": "JSON property name",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#7bcbf0"
+			}
+		},
+		{
+			"name": "JSON property value",
+			"scope": [
+				"meta.structure.dictionary.value.json",
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground": "#e4e4e4"
+			}
+		},
+		
+		
 	]
 }
